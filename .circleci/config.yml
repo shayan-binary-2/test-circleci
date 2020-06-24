@@ -12,7 +12,7 @@ jobs:
             - run: npm install
             - run: npm test
             - run: npm build
-            - run: npm deploy
+            - run: npm run deploy
 workflows:
     build-and-test:
       jobs:
